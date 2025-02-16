@@ -20,13 +20,13 @@ import { ShimmerButton } from "./magicui/shimmer-button";
 
 const Projects = () => {
   return (
-    <div className="mx-32 mt-[10%] mb-[10%] " id="projects">
+    <div className="md:mx-32 mx-4 scale-90 md:mt-[10%] md:mb-[10%] " id="projects">
       <div className="mb-9">
-        <h1 className="text-center text-white text-4xl font-bold mb-[80px]">
+        <h1 className="text-center text-white text-3xl md:text-4xl font-bold md:mb-[80px]">
           Projects
         </h1>
       </div>
-      <div className="grid grid-cols-3 gap-6 rounded-lg">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 rounded-lg">
         <div className="overflow-hidden w-full relative shadow-[0_0_15px_5px_rgba(255,255,0,0.6)] rounded-lg">
           <MagicCard className="w-[100%] h-[550px]">
             <Meteors />

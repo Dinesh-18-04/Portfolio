@@ -5,14 +5,14 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 w-full z-[100]">
       <div className="relative z-10 py-4 bg-black">
-        <div className="flex justify-between mx-28 font-[Poppins]">
+        <div className="flex justify-between md:mx-28 font-[Poppins]">
           <div>
             <h1 className="text-4xl font-bold cursor-pointer text-white">
               Portfolio
             </h1>
           </div>
           <div>
-            <ul className="flex gap-10 text-xl font-semibold text-white">
+            <ul className="md:flex hidden gap-10 text-xl font-semibold text-white">
               <li>
                 <a className="hover:text-red-300 transition-all" href="/">
                   Home

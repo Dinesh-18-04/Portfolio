@@ -20,9 +20,9 @@ import { Dock, DockIcon } from "./magicui/dock"; // Adjust the path if needed
 
 const Skills = () => {
   return (
-    <div className="mx-32 mt-[10%] mb-[10%] " id="skills">
+    <div className="md:mx-32 md:mt-[10%] md:mb-[10%] " id="skills">
       <div className="mb-9">
-        <h1 className="text-center text-white text-4xl font-bold mb-[80px]">
+        <h1 className="text-center text-white text-3xl md:text-4xl font-bold md:mb-[80px]">
           Skills
         </h1>
       </div>
@@ -160,8 +160,8 @@ const Skills = () => {
         </Marquee>
       </div>
 
-      <div className="relative my-9">
-        <Dock className="absolute right-0 border-2 px-7">
+      <div className="md:relative md:my-9">
+        <Dock className="md:absolute md:right-0 border-2 px-7">
           <DockIcon>
             <a target="_blank" href="mailto:dineshssd559@gmail.com">
               <img src={gmail} width={40} height={40} alt="Gmail" />
